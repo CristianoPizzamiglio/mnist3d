@@ -74,7 +74,7 @@ dataset is preserved.
 ### Curation Rationale
 
 The MNIST3D dataset serves as an accessible entry point for those interested in 
-applying machine learning models for 3D point cloud classification while spending 
+applying machine learning models to 3D point cloud classification tasks while spending 
 minimal efforts on preprocessing and formatting.
 
 ### Methods
