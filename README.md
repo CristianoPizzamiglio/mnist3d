@@ -14,9 +14,7 @@ size_categories:
 source_datasets:
 - extended|mnist
 task_categories:
-- point-cloud-classification
-task_ids:
-- multi-class-point-cloud-classification
+- other
 pretty_name: MNIST3D
 dataset_info:
   features:
