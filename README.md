@@ -48,6 +48,8 @@ dataset_info:
   dataset_size: 81130512
 ---
 
+![7](images/7.png)
+
 # Dataset Card for MNIST3D
 
 ## Dataset Description
@@ -83,6 +85,9 @@ minimal efforts on preprocessing and formatting.
 2. The pixel intensity distribution of the MNIST images is analyzed. As shown in the 
    plot below, intensities are clustered toward 0 and 255. A threshold equal to 128 
    is chosen.
+
+![hist](images/test_image_pixel_intensity_distribution_0.png)
+
 3. Images are binarized. Intensities greater than the threshold are converted to 1, 
    the remaining ones to 0.
 4. Images are converted to point clouds. Pixels with non-zero intensity are 
@@ -92,6 +97,9 @@ minimal efforts on preprocessing and formatting.
 5. The total number of points is set to 193, which is the maximum (outliers excluded)
    of the distribution of non-zero intensities in the binarized images (see boxplot 
    below).
+
+![boxplot](images/non_zero_intensity_distribution_boxplot.png)
+
 6. Gaussian noise with mean set to zero and standard deviation equal to 0.01 is 
    added to the three dimensions.
 
