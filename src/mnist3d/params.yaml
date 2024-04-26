@@ -1,0 +1,5 @@
+# Pixel intensity threshold (Integer)
+pixel_intensity_threshold: 128
+
+# Gaussian noise standard deviation (Float)
+noise_standard_deviation: 0.01
